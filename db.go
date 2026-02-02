@@ -25,6 +25,8 @@ if err != nil {
 }
 
 
+
+	
 	// Print the exact DB path being used
 	absPath, _ := filepath.Abs("./chatapp.db")
 	log.Println("📂 Using DB file at:", absPath)
@@ -54,3 +56,4 @@ if err != nil {
 		log.Fatal("Error creating messages table:", err)
 	}
 }
+
